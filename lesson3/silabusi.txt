@@ -1,0 +1,6 @@
+1. If/else statement
+2. Switch
+3. Ternary operator
+4. რა არის ფუნქცია
+5. Function declaration vs Function expressions
+6. Arrow Functions
