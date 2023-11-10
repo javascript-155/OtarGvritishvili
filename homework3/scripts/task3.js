@@ -9,8 +9,8 @@ let num3 = prompt("Enter the final number of the range!");
 
 
 function Checker(num1, num2, num3) {
-
-    if (num1 > num2 && num3 > num1) {
+    // console.log(num1 > num2, num3 > num1)
+    if (Number(num1) > Number(num2) && Number(num3) > Number(num1)) {
         return ("The number is within the selected range!");
     } 
     else {
