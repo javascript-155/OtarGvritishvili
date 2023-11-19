@@ -67,7 +67,7 @@ class Circle extends Shape {
     };
 
     area() {
-        console.log(Math.PI * this.radius * this.radius);
+        console.log("Area of Circle: " + Math.PI * this.radius * this.radius);
     };
 };
 
@@ -79,7 +79,7 @@ class Rectangle extends Shape {
     };
 
     area() {
-        console.log(this.width * this.height);
+        console.log("Area of Rectangle: " + this.width * this.height);
     };
 };
 
@@ -91,7 +91,7 @@ class Triangle extends Shape {
     };
 
     area() {
-        console.log((this.base * this.height) / 2);
+        console.log("Area of Triangle: " +(this.base * this.height) / 2);
     };
 };
 
@@ -102,7 +102,7 @@ class Triangle extends Shape {
  “area()” მეთოდის გამოძახებით თითოეულ ფიგურაზე იქნება ეს სამკუთხედი, წრე თუ მართკუთხედი 
  და გამოიტანეთ დაანგარიშებული ფიგურის ფართობი პლიუს ამ ფიგურის სახელი ეკრანზე.
 */
-let triangle = new Triangle("TRIANGLE", 10, 5);
+let triangle =  new Triangle("TRIANGLE", 10, 5);
 let rectangle = new Rectangle("RECTANGLE", 4, 8);
 let circle = new Circle("CIRCLE", 3);
 let shape = new Shape();
