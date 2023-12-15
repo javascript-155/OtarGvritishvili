@@ -29,7 +29,7 @@ function converter() {
 
     let amount = document.getElementById("amount").value;
 
-    let converted = amount * (toCrypto / fromCrypto);
+    let converted = amount * (fromCrypto / toCrypto);
 
     result.innerHTML = converted;
 }
